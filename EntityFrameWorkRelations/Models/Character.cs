@@ -6,5 +6,6 @@
         public string Name { get; set; }
         public int BackPackId { get; set; }
         public Backpack Backpack { get; set; }
+        public List<Weapon> Weapons { get; set; }
     }
 }
